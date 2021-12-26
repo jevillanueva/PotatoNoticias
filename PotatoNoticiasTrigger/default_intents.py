@@ -41,7 +41,7 @@ class CancelAndStopIntentHandler(AbstractRequestHandler):
         print("Ejecucion Intent Cancel o Stop")
         speech_text = "Hasta luego Atentamente Potato Noticias!"
         handler_input.response_builder.speak(speech_text).set_card(
-            SimpleCard("Eco", speech_text)).set_should_end_session(True)
+            SimpleCard("Potato Noticias", speech_text)).set_should_end_session(True)
         return handler_input.response_builder.response
 
 
