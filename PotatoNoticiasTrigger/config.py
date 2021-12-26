@@ -1,0 +1,4 @@
+import os
+ALEXA_SKILL_ID = os.getenv("ALEXA_SKILL_ID", "")
+DISCORD_CHANNEL_ID = os.getenv("DISCORD_CHANNEL_ID", "")
+DISCORD_BOT_TOKEN = os.getenv("DISCORD_BOT_TOKEN", "")
